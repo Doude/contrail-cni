@@ -1,5 +1,7 @@
 module github.com/michaelhenkel/contrail-cni
 
+go 1.14
+
 replace github.com/docker/distribution v2.7.1+incompatible => github.com/docker/distribution v2.7.1-0.20190205005809-0d3efadf0154+incompatible
 
 require (
